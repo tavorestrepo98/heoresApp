@@ -1,3 +1,4 @@
+import { FC } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import { Navbar } from "../components/ui/Navbar";
@@ -6,7 +7,7 @@ import { DcScreen } from '../components/dc/DcScreen';
 import { SearchScreen } from '../components/search/SearchScreen';
 import { HeroScreen } from '../components/heroe/HeroScreen';
 
-export const DashboardRoutes = () => {
+export const DashboardRoutes: FC = () => {
   return (
     <>
       <Navbar />
